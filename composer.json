@@ -1,0 +1,26 @@
+{
+    "name": "wesdulaney/converter",
+    "description": "Convert values among types",
+    "license": "MIT",
+    "keywords": ["converter"],
+    "authors": [
+        {
+            "name": "Wes Dulaney",
+            "email": "dulaney.wesley@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WDConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WDConverter\\Tests\\": "tests/"
+        }
+    }
+}
